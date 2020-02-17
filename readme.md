@@ -2,11 +2,13 @@
 
 # Basic Auth
 
+
 ## Introduction
 
 In this exercise, we are going to create a project where we will have all the basic authorization and authentication processes and features that you would in a real application.
 
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_044a7b23c9b4cf082e1c4fadcd12d308.png)
+
 
 ## Requirements
 
@@ -25,11 +27,13 @@ In this exercise, we are going to create a project where we will have all the ba
 
 - Create Pull Request so your TAs can check up your work.
 
+
 ## Instructions
 
 ### Iteration 0 | Initialize the project
 
 After forking and cloning the project, you have to install all the dependencies:
+
 
 ```sh
 $ npm install
@@ -76,7 +80,7 @@ Let's add validations to our forms. Remember we have two different forms: sign u
 
 Remember, when a user signs up or logs in, both the username and password fields must be filled in.
 
-Check out the [documentation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Data_form_validation) at MDN. See if you can find a _constraint_ that requires the user to fill a field prior to submission.
+Check out the [documentation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Data_form_validation) at MDN. See if you can find a *constraint* that requires the user to fill a field prior to submission.
 
 ## Bonus - Iteration 5 - Profile Page
 

@@ -1,0 +1,18 @@
+<div class="navbar">
+    <a href="/">Homepage</a>
+    {{#if user}}
+        <div class="navbar-tag-container">
+            <a href="/user/main">Main Page</a>
+            <a href="/user/private">Private Page</a>
+            <a href="/user/profile">Profile</a>
+            <form action="/user/sign-out" method="POST">
+                <button>Sign-out</button>
+            </form>
+        </div>
+        {{else}}
+        <div class="navbar-tag-container">
+            <a href="/user/sign-up">Sign Up</a>
+            <a href="/user/log-in">Log In</a>
+        </div>
+    {{/if}}
+</div>

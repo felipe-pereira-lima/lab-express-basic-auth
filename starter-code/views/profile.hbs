@@ -1,0 +1,6 @@
+<h1>Welcome {{user.username}} to your profile!</h1>
+<h4>Please feel free to modify your username or password</h4>
+<form action="/user/private/edit" method="POST">
+    <input type="text" name="username" placeholder="{{user.username}}">
+    <button>Submit Changes</button>
+</form>

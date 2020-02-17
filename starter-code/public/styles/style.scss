@@ -1,0 +1,40 @@
+$font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$link-color: #00b7ff;
+
+body {
+  margin: 0;
+  padding: 50px;
+  font-family: $font-sans;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.navbar-tag-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-tag-container a, button{
+  padding-left: 1em;
+}
+
+.navbar-tag-container button{
+  border: 0px;
+  color: inherit;
+  background-color: inherit;
+  color: $link-color;
+  font-family: $font-sans;
+  font-size: 1em;
+}
